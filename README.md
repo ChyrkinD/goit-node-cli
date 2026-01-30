@@ -14,4 +14,6 @@ A simple command-line interface (CLI) for managing your contact list, built with
 **Clone the repository:**
    ```bash
    git clone [https://github.com/ChyrkinD/goit-node-cli.git](https://github.com/ChyrkinD/goit-node-cli.git)
+   cd goit-node-cli
+   npm istall
    ```
