@@ -3,7 +3,7 @@ import { resolve } from "node:path"
 import { nanoid } from "nanoid";
 
 
-const contactsPath = resolve('src', 'data', 'contacts.json');
+const contactsPath = resolve('data', 'contacts.json');
 
 const updateContacts = async (data) => await fs.writeFile(contactsPath, JSON.stringify(data, null, 2))
 
